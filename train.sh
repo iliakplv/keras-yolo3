@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pip3 install -r requirements
+pip3 install -r requirements.txt
 
 wget https://iliakplv-ml-public.s3-ap-southeast-2.amazonaws.com/backend.h5
 wget https://iliakplv-ml-public.s3-ap-southeast-2.amazonaws.com/fish_dataset.zip
