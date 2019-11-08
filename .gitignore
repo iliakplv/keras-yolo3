@@ -1,7 +1,15 @@
 venv
 .idea
 
-*.jpg
-*.jpeg
+train_annot_folder
+train_image_folder
+logs
+*.log
 *.weights
 *.h5
+*.pkl
+
+*.zip
+*.jpg
+*.jpeg
+*.mp4
