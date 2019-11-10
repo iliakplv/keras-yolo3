@@ -11,11 +11,11 @@
         "train_annot_folder":   "./train_annot_folder/",
         "cache_name":           "fish_train.pkl",
 
-        "train_times":          8,
+        "train_times":          10,
         "batch_size":           16,
         "learning_rate":        1e-4,
         "nb_epochs":            100,
-        "warmup_epochs":        3,
+        "warmup_epochs":        4,
         "ignore_thresh":        0.5,
         "gpus":                 "0,1",
 
@@ -31,9 +31,9 @@
     },
 
     "valid": {
-        "valid_image_folder":   "",
-        "valid_annot_folder":   "",
-        "cache_name":           "",
+        "valid_image_folder":   "./valid_image_folder/",
+        "valid_annot_folder":   "./valid_annot_folder/",
+        "cache_name":           "fish_valid.pkl",
 
         "valid_times":          1
     }
