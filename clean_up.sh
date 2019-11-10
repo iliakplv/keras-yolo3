@@ -7,3 +7,4 @@ rm -rf logs
 
 rm fish.h5
 rm fish_train.pkl
+rm fish_valid.pkl
