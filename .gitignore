@@ -3,6 +3,8 @@ venv
 
 train_annot_folder
 train_image_folder
+valid_annot_folder
+valid_image_folder
 logs
 *.log
 *.weights
