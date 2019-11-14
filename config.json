@@ -2,20 +2,20 @@
     "model" : {
         "min_input_size":       288,
         "max_input_size":       448,
-        "anchors":              [12,14, 14,30, 22,17, 25,72, 25,39, 28,27, 48,37, 79,63, 81,117],
-        "labels":               ["fish"]
+        "anchors":              [117,142, 151,233, 191,345, 248,223, 259,381, 280,294, 333,338, 366,393, 374,274],
+        "labels":               ["raccoon"]
     },
 
     "train": {
-        "train_image_folder":   "./train_image_folder/",
-        "train_annot_folder":   "./train_annot_folder/",
-        "cache_name":           "fish_train.pkl",
+        "train_image_folder":   "./img/",
+        "train_annot_folder":   "./annot/",
+        "cache_name":           "raccoon.pkl",
 
-        "train_times":          10,
+        "train_times":          8,
         "batch_size":           16,
         "learning_rate":        1e-4,
-        "nb_epochs":            300,
-        "warmup_epochs":        10,
+        "nb_epochs":            100,
+        "warmup_epochs":        3,
         "ignore_thresh":        0.5,
         "gpus":                 "0,1",
 
@@ -26,14 +26,14 @@
         "class_scale":          1,
 
         "tensorboard_dir":      "logs",
-        "saved_weights_name":   "fish.h5",
+        "saved_weights_name":   "raccoon.h5",
         "debug":                true
     },
 
     "valid": {
-        "valid_image_folder":   "./valid_image_folder/",
-        "valid_annot_folder":   "./valid_annot_folder/",
-        "cache_name":           "fish_valid.pkl",
+        "valid_image_folder":   "",
+        "valid_annot_folder":   "",
+        "cache_name":           "",
 
         "valid_times":          1
     }
